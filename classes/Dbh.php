@@ -14,9 +14,6 @@ class Dbh
         if(!$conn){
         echo "<h1 style='color: red'>Error connecting to the database</h1>";
         } 
-        // else {
-        //     echo "<h1 style='color: green'>Connected Successfully</h1>";
-        // }
         return $conn;
     }
 }
